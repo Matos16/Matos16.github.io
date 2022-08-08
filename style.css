@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(rgba(32, 37, 60, 0.6),rgba(32, 37, 60, 0.9)),url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    color: rgb(255, 255, 255);
+    font-family: Arial
+}
+
+.text{
+    text-align: center;
+}
+
+.image{
+    padding-top: 10%;
+    text-align: center;
+}

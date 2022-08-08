@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flag Game</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        <div class="image">
+            <img alt=image id=flagimage>
+        </div>
+        <div class="text">
+            <form name="form1" id="form1" method="get">
+                <br><br>
+                Flag Name:
+                <input type="text" name="flag" list="flagname" id="flagid">
+                <datalist id="flagname"></datalist>
+                <br><br>
+                <input type="submit" value="Guess" id="submitButton"> 
+            </form>
+            <br><br>
+            <form method="get">
+                <button type="button" onclick="toggleText()">Hint</button>
+            </form>
+            <p id="hinttext" style="display:none">Hint(name): </p>            
+            <br><br>
+            <button type="button" id="nextButton" hidden onclick="changeImg()">Next</button>
+        </div>
+    </body>
+    
+    <script type="text/javascript" src="script.js"></script>
+    
+</html>
